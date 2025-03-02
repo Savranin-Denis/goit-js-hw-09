@@ -1,0 +1,21 @@
+body {
+}
+
+.gallery {
+  width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px 0;
+  margin: 0 auto;
+}
+
+.gallery-link {
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
