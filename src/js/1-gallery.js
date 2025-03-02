@@ -88,5 +88,9 @@ const galleryImgs = images
 
 gallery.insertAdjacentHTML('beforeend', galleryImgs);
 
-const slOptions = { captionDelay: 250, captionsData: 'alt' };
+const slOptions = {
+  captionDelay: 250,
+  captionsData: 'alt',
+  overlayOpacity: 0.8,
+};
 new SimpleLightbox('.gallery a', slOptions);
